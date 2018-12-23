@@ -22,6 +22,7 @@ public class LoginPage extends BaseClass{
 	
 	@FindBy(id="spanMessage")
 	public WebElement errorMessage;
+
 	
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
